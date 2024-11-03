@@ -42,7 +42,7 @@ if __name__ == '__main__':
     # Define class names (must match the classes used during training)
     class_names = ['ants', 'bees']
     
-    model_path = 'best_model.pth'
+    model_path = 'prediction_model.pth'
     model = load_model(model_path, num_classes=len(class_names))
     transform = get_transforms()
     image_path = 'bee_test.jpg'
