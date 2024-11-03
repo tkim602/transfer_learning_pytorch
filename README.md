@@ -43,7 +43,7 @@ Ensure you have Python 3.11 installed and clone this repository. All dependencie
 
 1. Organize the Dataset
 
- ![image](https://github.com/user-attachments/assets/13d421ce-e237-4b32-8a2e-b01aa2896f6e)
+   ![image](https://github.com/user-attachments/assets/13d421ce-e237-4b32-8a2e-b01aa2896f6e)
 
 
 4. Run the Training Script
