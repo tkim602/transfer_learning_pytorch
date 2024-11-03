@@ -80,6 +80,8 @@ Ensure you have Python 3.11 installed and clone this repository. All dependencie
 
 ## Expected Output
 - test.jpg is an image of a single bee. The output is:
+
+  
   ![image](https://github.com/user-attachments/assets/b37ad5fc-0fa0-4c03-a6dc-33e780dc3737)
 
 --- 
