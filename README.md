@@ -12,8 +12,7 @@ This project leverages transfer learning with PyTorch's EfficientNet-B0 model to
 - [Using the Model for Predictions](#using-the-model-for-predictions)
 - [Requirements](#requirements)
 - [Theory: Transfer Learning](#theory-transfer-learning)
-- [Example Output](#example-output)
-- [Conclusion](#conclusion)
+
 
 ---
 
