@@ -42,15 +42,11 @@ Ensure you have Python 3.11 installed and clone this repository. All dependencie
 ## Train the Model
 
 1. Organize the Dataset
-   dataset/
-├── train/
-│   ├── ants/
-│   └── bees/
-└── val/
-    ├── ants/
-    └── bees/
 
-2. Run the Training Script
+ ![image](https://github.com/user-attachments/assets/13d421ce-e237-4b32-8a2e-b01aa2896f6e)
+
+
+4. Run the Training Script
    python3 transfer_learning.py
    -> EfficientNet-B0 model will be trained using the ants and bees dataset. After training, it saves the best   
    model weights as prediction_model.pth.
