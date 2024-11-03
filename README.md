@@ -45,10 +45,27 @@ Ensure you have Python 3.11 installed and clone this repository. All dependencie
    ![image](https://github.com/user-attachments/assets/13d421ce-e237-4b32-8a2e-b01aa2896f6e)
 
 
-4. Run the Training Script
+2. Run the Training Script
    python3 transfer_learning.py
    -> EfficientNet-B0 model will be trained using the ants and bees dataset. After training, it saves the best   
    model weights as prediction_model.pth.
+
+3. Training Output
+
+   ![image](https://github.com/user-attachments/assets/3610b3a0-e46f-4db7-aa59-e01f2b5b7442)
+
+   - Train Loss: shows the average loss for the training set in each epoch. A lower training loss generally          indicates better performance on the training data.
+   - Train Acc: shows the accuracy on the training data, showing the proportion of correct predictions out of       the total predictions in that epoch. 
+   - Val Loss: shows the loss on the validation set, used to monitor the model's performance on data it has not     seen during training. Again, lower values indicates better generalization.
+   - Val Acc: shows the accuracy on the validation set. Ideally, it should improve over epochs if the model is      learning effective and generalizing well.
+  
+   - Reason to some fluctuations in training and validation accurracy:
+     1. Small Dataset
+     2. Early Training Stages
+     3. Training on CPU
+
+4. After Training
+   It saves the best model weights as prediction_model.pth and appears in the folder. Then, in the prediction.py    file, make sure the model is in the correct directory in the file. 
 
 ### Key Points
   - Fine-Tuning: Only the final classification layer is retained, adapting EfficeintNet-B0 to the specific   
