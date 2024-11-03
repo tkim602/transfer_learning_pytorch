@@ -89,7 +89,7 @@ Ensure you have Python 3.11 installed and clone this repository. All dependencie
 
 --- 
 
-## Theory (for study)
+## Theory
 
 1. Pre-trained Model
    - transfer leaning begins with a model that has been trained on a large dataset. In this project, the pre- 
